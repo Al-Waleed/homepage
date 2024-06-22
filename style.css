@@ -1,0 +1,27 @@
+* {
+  font-family: "Playfair Display", "Roboto", "Gill Sans", "Gill Sans MT",
+    Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+body {
+  margin: 0;
+}
+
+#header-color {
+  background-color: #3a98b9;
+  height: 670px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  transform-origin: left;
+  transform: skewY(-13deg);
+  z-index: -1;
+}
+
+#placeholder {
+  margin-left: 50px;
+  margin-top: 50px;
+  height: 600px;
+  width: 525px;
+}
