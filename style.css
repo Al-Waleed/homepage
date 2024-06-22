@@ -34,6 +34,28 @@ header {
 #about {
   background-color: #fff;
   margin-right: 50px;
+  margin-top: 60px;
   padding: 20px;
   box-shadow: rgb(59 53 53) 1px 1px 25px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 450;
+}
+
+header > div > p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+#header-icons > i {
+  font-size: 28px;
+}
+
+#header-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 60px;
 }
