@@ -124,3 +124,51 @@ main > h1 {
   display: flex;
   justify-content: space-between;
 }
+
+footer {
+  background-color: #3a98b9;
+  display: flex;
+  padding: 60px;
+  gap: 25px;
+}
+
+#footer-image > img {
+  object-fit: cover;
+  width: 800px;
+  height: 550px;
+}
+
+#footer-content > h1,
+#footer-content > p {
+  color: #fff;
+}
+
+#footer-content > p {
+  font-size: 20px;
+}
+
+#footer-content > div {
+  display: flex;
+  gap: 36px;
+}
+
+#footer-content > div > i {
+  font-size: 50px;
+
+}
+
+p > img {
+  width: 25px;
+  height: 25px;
+}
+
+.filter-white {
+  filter: invert(100%) sepia(0%) saturate(7405%) hue-rotate(161deg)
+    brightness(117%) contrast(92%);
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
