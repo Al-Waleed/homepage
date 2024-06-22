@@ -59,3 +59,16 @@ header > div > p {
   gap: 15px;
   margin-top: 60px;
 }
+
+#image-container {
+  position: relative;
+}
+
+#image-container > h1 {
+  position: absolute;
+  bottom: 5px;
+  left: 75px;
+  color: #fff;
+  font-size: 60px;
+  margin: 0;
+}
