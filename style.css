@@ -78,6 +78,16 @@ span > img {
   height: 25px;
 }
 
+span > i {
+  font-size: 22px;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 main {
   margin: 150px 60px;
 }
@@ -86,20 +96,31 @@ main > h1 {
   margin: 0;
 }
 
-#projects{
+#projects {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
   justify-content: space-between;
 }
 
-.project{
-  background-color: cadetblue;
+.project {
+  box-shadow: rgb(147 138 138) 1px 1px 10px;
   height: 450px;
   width: 350px;
 }
 
-.project > img{
+.project > img {
   width: 100%;
   object-fit: fill;
+}
+
+.project > div {
+  margin: 5px 25px;
+}
+
+.project > div > h2 {
+  font-weight: 450;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
 }
