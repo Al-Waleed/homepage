@@ -20,8 +20,20 @@ body {
 }
 
 #placeholder {
-  margin-left: 50px;
-  margin-top: 50px;
-  height: 600px;
-  width: 525px;
+  margin-left: 60px;
+  margin-top: 60px;
+  height: 550px;
+  width: 540px;
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+#about {
+  background-color: #fff;
+  margin-right: 50px;
+  padding: 20px;
+  box-shadow: rgb(59 53 53) 1px 1px 25px;
 }
