@@ -106,7 +106,7 @@ main > h1 {
 .project {
   box-shadow: rgb(147 138 138) 1px 1px 10px;
   height: 450px;
-  width: 350px;
+  max-width: 350px;
 }
 
 .project > img {
@@ -172,3 +172,22 @@ p > img {
   align-items: center;
   gap: 6px;
 }
+
+@media (max-width: 1250px) {
+ .project{
+  max-width: 320px;
+ }
+}
+
+@media (max-width: 1177px){
+  #footer-image > img {
+  width: 650px;
+}
+}
+
+@media (max-width: 1160px) {
+ .project{
+  max-width: 280px;
+ }
+}
+
