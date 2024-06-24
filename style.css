@@ -135,19 +135,19 @@ footer {
   background-color: #3a98b9;
   display: flex;
   justify-content: space-between;
-  padding: 2.5%;
-  gap: 25px;
+  padding: 5%;
+  gap: 20%;
   height: fit-content;
 }
 
-#footer-content{
+#footer-content {
   width: 25%;
   height: fit-content;
 }
 
-#footer-image{
-width: 60%;
-height: 80vh;
+#footer-image {
+  width: 60%;
+  height: 80vh;
 }
 
 #footer-image > img {
@@ -172,7 +172,6 @@ height: 80vh;
 
 #footer-content > div > i {
   font-size: 50px;
-
 }
 
 p > img {
@@ -185,8 +184,63 @@ p > img {
     brightness(117%) contrast(92%);
 }
 
-.center{
+.center {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+@media (max-width: 1000px) {
+  #image-container {
+    position: relative;
+    float: left;
+    top: 0;
+    width: 50%;
+    height: 165px;
+  }
+
+  #placeholder {
+    width: 47vw;
+    height: 184%;
+    transform: translate(-10vw, -13vw);
+  }
+
+  #about {
+    margin: 12.5% 10% 0 10%;
+  }
+
+  #image-container > h1 {
+    height: fit-content;
+    width: 340px;
+    top: -105px;
+    font-size: 40px;
+    transform: translateX(25vw);
+  }
+
+  .project {
+    width: 40%;
+  }
+
+  main {
+    margin: 25% 12.5%;
+  }
+
+  #footer-image {
+    width: 50%;
+    height: 65vw;
+  }
+}
+
+@media (max-width: 730px) {
+  #placeholder {
+    width: 45vw;
+    height: 145%;
+  }
+
+  #image-container > h1 {
+    width: 238px;
+    top: -70px;
+    font-size: 28px;
+    transform: translateX(18vw);
+  }
 }
