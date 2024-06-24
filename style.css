@@ -244,3 +244,60 @@ p > img {
     transform: translateX(18vw);
   }
 }
+
+@media (max-width: 505px) {
+  #about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10%;
+    padding: 0;
+    box-shadow: none;
+  }
+  #image-container {
+    position: static;
+    width: 100%;
+    height: 130vw;
+    margin: 0;
+  }
+
+  #placeholder {
+    position: static;
+    width: 100%;
+    height: 100%;
+    transform: none;
+  }
+
+  main > h1 {
+    text-align: center;
+  }
+
+  #projects {
+    justify-content: center;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  #footer-content {
+    width: 100%;
+  }
+
+  #footer-content > div {
+    /* display: flex; */
+    justify-content: center;
+  }
+
+  #footer-image {
+    width: 100%;
+    height: 60vh;
+  }
+}
