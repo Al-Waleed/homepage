@@ -20,10 +20,8 @@ body {
 }
 
 #placeholder {
-  margin-left: 60px;
-  margin-top: 60px;
-  height: 550px;
-  width: 540px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -33,8 +31,9 @@ header {
 }
 #about {
   background-color: #fff;
-  margin-right: 50px;
-  margin-top: 60px;
+  margin-right: 2.5%;
+  margin-top: 5%;
+  margin-left: 50%;
   padding: 20px;
   box-shadow: rgb(59 53 53) 1px 1px 25px;
 }
@@ -61,7 +60,13 @@ header > div > p {
 }
 
 #image-container {
-  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  position: absolute;
+  width: 47.5%;
+  height: 550px;
 }
 
 #image-container > h1 {
@@ -89,7 +94,7 @@ span {
 }
 
 main {
-  margin: 150px 60px;
+  margin: 20% 2.5%;
 }
 
 main > h1 {
@@ -105,12 +110,13 @@ main > h1 {
 
 .project {
   box-shadow: rgb(147 138 138) 1px 1px 10px;
-  height: 450px;
-  max-width: 350px;
+  height: 25%;
+  width: 30%;
 }
 
 .project > img {
   width: 100%;
+  height: 50%;
   object-fit: fill;
 }
 
@@ -128,14 +134,26 @@ main > h1 {
 footer {
   background-color: #3a98b9;
   display: flex;
-  padding: 60px;
+  justify-content: space-between;
+  padding: 2.5%;
   gap: 25px;
+  height: fit-content;
+}
+
+#footer-content{
+  width: 25%;
+  height: fit-content;
+}
+
+#footer-image{
+width: 60%;
+height: 80vh;
 }
 
 #footer-image > img {
   object-fit: cover;
-  width: 800px;
-  height: 550px;
+  width: 100%;
+  height: 100%;
 }
 
 #footer-content > h1,
@@ -172,22 +190,3 @@ p > img {
   align-items: center;
   gap: 6px;
 }
-
-@media (max-width: 1250px) {
- .project{
-  max-width: 320px;
- }
-}
-
-@media (max-width: 1177px){
-  #footer-image > img {
-  width: 650px;
-}
-}
-
-@media (max-width: 1160px) {
- .project{
-  max-width: 280px;
- }
-}
-
